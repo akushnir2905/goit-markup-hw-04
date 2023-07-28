@@ -616,3 +616,15 @@ footer .socials-link:focus{
   border-radius: 4px;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
+
+.modal-btn{
+  position: absolute;
+  top: 24px;
+  left: 24px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
