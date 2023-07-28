@@ -522,3 +522,8 @@ margin-left: auto;
 .customers-icon{
   fill: var(--lightslate);
 }
+
+.footer-container{
+  display: flex;
+  align-items: baseline;
+}
