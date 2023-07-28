@@ -168,6 +168,7 @@ address ul{
   color: var(--white); 
   align-content: center;
   padding: 188px 0;
+  max-width: 1440px;
 }
 
 .main-header{
@@ -214,6 +215,9 @@ border-radius: 4px;
 }
 
 .principles-icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   box-sizing: border-box;
   width: 264px;
 height: 112px;
