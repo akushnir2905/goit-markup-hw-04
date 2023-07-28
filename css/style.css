@@ -673,8 +673,8 @@ footer .socials-link:focus{
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
- .modal-btn svg:hover,
-.modal-btn svg:focus{
+ .modal-btn:hover .btn-svg,
+.modal-btn:hover .btn-svg{
   fill: #ffffff;
 }
 
