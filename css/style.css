@@ -337,12 +337,12 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
   padding-bottom: 120px; 
 }
 
-.portfolio-link{
+.active-page{
   position: relative;
   color: #404bbf; 
 }
 
-.portfolio-link:after{
+.active-page:after{
   content: '';
   position: absolute; 
   left: 0; 
