@@ -512,10 +512,13 @@ display: inline-flex;
 align-items: flex-start;
 gap: 16px;
 margin-left: auto;
+margin-bottom: 16px; 
 }
 
 .social-icon{
   fill: var(--white);
+  width: 40px;
+  height: 40px;
   
 }
 
@@ -526,4 +529,13 @@ margin-left: auto;
 .footer-container{
   display: flex;
   align-items: baseline;
+}
+
+.footer-left{
+  margin-right: 120px;
+}
+
+.social-links .list{
+  display: flex;
+  gap: 16px;
 }
