@@ -488,6 +488,10 @@ box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0
   display: block;
 }
 
+.portfolio-point .link{
+  Display: block;
+}
+
 .portfolio-point:hover,
 .portfolio-point:focus{
   border: 1px solid var(--cloud, #F4F4FD);
