@@ -337,6 +337,22 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
   padding-bottom: 120px; 
 }
 
+.portfolio-link{
+  position: relative;
+  color: #404bbf; 
+}
+
+.portfolio-link:after{
+  content: '';
+  position: absolute; 
+  left: 0; 
+  bottom: -1px;
+  height: 4px;
+  background-color: #404bbf;
+  border-radius: 2px; 
+  transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .portfolio-navigation-btn{
   font-family: inherit;
   font-style: normal;
