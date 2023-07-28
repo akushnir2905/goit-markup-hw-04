@@ -561,3 +561,8 @@ margin-bottom: 16px;
   display: flex;
   gap: 16px;
 }
+
+footer .socials-link:hover,
+footer .socials-link:focus{
+  background-color: var(--green)
+}
