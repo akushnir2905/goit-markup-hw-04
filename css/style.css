@@ -141,7 +141,7 @@ letter-spacing: 0.02em;
 
 .address{
   font-style:normal;
-  
+  margin-left: auto;
 }
 
 address ul{
@@ -160,7 +160,11 @@ address ul{
 
 .introduction{
   background-color: var(--navyblue);
-  
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), 
+  rgba(46, 47, 66, 0.7)), url(/images/7e83b6c8ee4603ea892aa8aaebb3c5fe\ \(1\).jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   color: var(--white); 
   align-content: center;
   padding: 188px 0;
@@ -209,6 +213,17 @@ border-radius: 4px;
   padding: 120px 0;
 }
 
+.principles-icon{
+  box-sizing: border-box;
+  width: 264px;
+height: 112px;
+flex-shrink: 0;
+border-radius: 4px;
+background: var(--cloud, #F4F4FD);
+margin-bottom: 8px;
+padding: 24px 100px;
+}
+
 .principles .list{
   display: flex;
   gap: 24px;
@@ -254,8 +269,17 @@ text-transform: capitalize;
 margin-bottom: 72px;
 }
 
+
 .team{
   background-color: var(--cloud);
+  padding: 120px 0;
+  border-radius: 0px 0px 4px 4px;
+
+box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+
+.customers{
+  background-color: var(--white);
   padding: 120px 0;
 }
 
@@ -333,6 +357,10 @@ padding: 12px 24px;
   background: var(--ocean);
   color: var(--white);
   border: 1px solid transparent;
+  border-radius: 4px;
+
+box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+
 }
 
 .portfolio-navigation{
@@ -359,6 +387,13 @@ padding: 12px 24px;
   text-align: left;
 }
 
+.portfolio-point:hover{
+  border: 1px solid var(--cloud, #F4F4FD);
+background: var(--white, #FFF);
+box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+
+}
+
 
 
 .caption{
@@ -379,6 +414,7 @@ padding: 12px 24px;
 .footer{
   background-color: var(--navyblue);
   padding: 100px 0;
+  display: flex;
  
 }
 
@@ -404,4 +440,25 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 
 max-width: 264px;
+}
+
+.socials{
+  color: var(--white);
+font-size: 16px;
+font-weight: 500;
+line-height: 24px; /* 150% */
+letter-spacing: 0.32px;
+display: inline-flex;
+align-items: flex-start;
+gap: 16px;
+margin-left: auto;
+}
+
+.social-icon{
+  fill: var(--white);
+  
+}
+
+.customers-icon{
+  fill: var(--lightslate);
 }
