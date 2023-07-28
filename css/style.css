@@ -475,12 +475,16 @@ box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0
   row-gap: 48px; 
 }
 
+
+
 .portfolio-point{
   width: calc((100% - 48px) / 3);
   text-align: left;
+  display: block;
 }
 
-.portfolio-point:hover{
+.portfolio-point:hover,
+.portfolio-point:focus{
   border: 1px solid var(--cloud, #F4F4FD);
 background: var(--white, #FFF);
 box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
