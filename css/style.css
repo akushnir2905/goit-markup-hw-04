@@ -160,8 +160,7 @@ address ul{
 
 .introduction{
   background-color: var(--navyblue);
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7), 
-  rgba(46, 47, 66, 0.7)), url(/images/7e83b6c8ee4603ea892aa8aaebb3c5fe\ \(1\).jpg);
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img-name.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -201,6 +200,7 @@ min-width: 169px;
 height: 56px;
 border: none;
 border-radius: 4px;
+transition:  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
 .introduction-button:hover,
