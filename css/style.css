@@ -167,14 +167,6 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 
 
-/*
-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-color 250ms cubic-bezier(0.4, 0, 0.2, 1)
-У першому пункті меню у посилання в класі
- заданий стиль transition зі значенням color 
-250ms cubic-bezier(0.4, 0, 0.2, 1) для плавної 
-зміни кольору текстового контенту
-*/
 
 
 /*Introduction*/
@@ -247,7 +239,7 @@ flex-shrink: 0;
 border-radius: 4px;
 background: var(--cloud, #F4F4FD);
 margin-bottom: 8px;
-padding: 24px 100px;
+
 }
 
 .principles .list{
@@ -306,6 +298,7 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
 }
 
 .socials-list{
+  margin-top: 8px;
   display: flex;
   justify-content: center;
   gap: 24px;
@@ -432,6 +425,7 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
 
 .active-page:after{
   content: '';
+  width:100%;
   position: absolute; 
   left: 0; 
   bottom: -1px;
@@ -507,8 +501,8 @@ box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0
 
 .portfolio-point .link:hover,
 .portfolio-point .link:focus{
-  border: 1px solid var(--cloud, #F4F4FD);
-background: var(--white, #FFF);
+
+
 box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 transform: translateY(0%);
 
